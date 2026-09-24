@@ -2,8 +2,8 @@
 
 int find_minimum(const int values[], int size) {
     int smallest = values[0];
-    i = 1;
-    while (i < size {
+    int i = 1;
+    while (i < size) {
         if (values[i] < smallest) {
             smallest = values[i];
         }
